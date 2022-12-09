@@ -20,7 +20,7 @@ class SalaryContract:
         return self.salary
 
     def __str__(self):
-        string = f'a mothly salary of {self.salary}'
+        string = f'a monthly salary of {self.salary}'
         return string
 
 class BonusCommission:
