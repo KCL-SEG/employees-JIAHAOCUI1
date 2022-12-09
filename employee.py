@@ -91,6 +91,6 @@ robbie_commission = BonusCommission(bonus=1500)
 robbie = Employee('Robbie', contract=robbie_contract, commission=robbie_commission)
 
 # Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.  Their total pay is 4200.
-ariel_contract = HourlyContract(hourly_pay=30, hours=120)\
+ariel_contract = HourlyContract(hourly_pay=30, hours=120)
 ariel_commission = BonusCommission(bonus=600)
 ariel = Employee('Ariel', contract=ariel_contract, commission=ariel_commission)
